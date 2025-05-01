@@ -4,6 +4,6 @@ from response import get_response
 if __name__ =="__main__":
     print("Capturing screen")
     screenshot = capture_screen()
-    question = input("What do you want to ask?")
+    question = input("What do you want to ask? \n")
     response = get_response(screenshot,question)
     

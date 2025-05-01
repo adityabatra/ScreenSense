@@ -34,8 +34,6 @@ def get_response(image_path,question):
         stream= True,
     )
     for event in response:
-        if event.type == "response.output_text.delta":
-            print(event.delta, end = "")
-        elif event.type == "response.completed":
-            print("\n")
+        yield event
+        
 
