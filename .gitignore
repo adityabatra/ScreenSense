@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+#screenshots
+backend/screenshots/
+
+#DS_Store
+.DS_Store
