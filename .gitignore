@@ -178,3 +178,6 @@ backend/screenshots/
 
 #DS_Store
 .DS_Store
+
+#node_modules
+frontend/node_modules
